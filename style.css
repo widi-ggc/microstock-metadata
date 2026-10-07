@@ -10,3 +10,14 @@
 .inp:focus,.btn:focus-visible,#fileInput:focus-visible+*{outline:2px solid #14b8a6;outline-offset:2px}
 .drop{border:2px dashed #94a3b8;border-radius:.9rem;padding:2rem 1rem}
 .drop.over{border-color:#0f766e;background:rgba(20,184,166,.08)}
+.chip{border-radius:999px;padding:.15rem .65rem;font-size:.8rem;border:1px solid;cursor:pointer}
+.chip-high{background:#dcfce7;border-color:#16a34a;color:#14532d}
+.chip-medium{background:#fef9c3;border-color:#ca8a04;color:#713f12}
+.chip-low{background:#fee2e2;border-color:#dc2626;color:#7f1d1d}
+.chip-unknown{background:#f1f5f9;border-color:#94a3b8;color:#334155}
+.dark .chip-unknown{background:#334155;color:#e2e8f0}
+.bar{height:.5rem;border-radius:999px;background:#e2e8f0;overflow:hidden}
+.dark .bar{background:#334155}
+.bar>i{display:block;height:100%;background:#0f766e}
+.nav-b[aria-current=page]{background:#0f766e;color:#fff}
+span.chip{cursor:default}
